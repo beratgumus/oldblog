@@ -1,9 +1,10 @@
 # blog page sections
-- name: JQuery
-  href: '/jquery/'
 
-- name: LIFE
-  href: '/life/'
+- name: English
+  href: '/english/'
 
-- name: Codecademy
-  href: '/codecademy/'
+- name: Turkish 
+  href: '/turkish/'
+
+#- name: Codecademy
+ # href: '/codecademy/'

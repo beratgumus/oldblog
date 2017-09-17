@@ -2130,6 +2130,7 @@
 
 			.image.featured img {
 				width: 100%;
+				
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2653,6 +2654,7 @@
 				-ms-transform: scale(1.05);
 				transform: scale(1.05);
 			}
+
 
 		.post > footer {
 			display: -moz-flex;

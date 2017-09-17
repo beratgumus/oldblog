@@ -48,12 +48,14 @@
 		&.featured {
 			width: 100%;
 			display: block;
-			margin: 0 0 _size(section-spacing) 0;
+			margin: 0 0 _size(section-spacing) ;
 			border: 1px solid #ddd;
 			border-radius: 4px;
 
 			img {
 				width: 100%;
+				border-radius: 0.375em;
+				display: block;
 			}
 
 			@include breakpoint(small) {
