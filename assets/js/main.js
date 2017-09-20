@@ -112,4 +112,20 @@
 
 	});
 
+	var searchInput = document.getElementById('search');
+
+	var search = new Awesomplete(searchInput,{
+
+	search:true,
+
+	list:[
+		{ label: "Merhaba Dünya!", value: "http://beratgumus.github.io/turkish/2017/Merhaba.html" }
+		]
+	});
+
+
+
+
 })(jQuery);
+
+
