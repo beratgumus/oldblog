@@ -112,15 +112,23 @@
 
 	});
 
-	var searchInput = document.getElementById('search');
+//Awesomplete
 
-	var search = new Awesomplete(searchInput,{
+$.getJSON("/assets/js/search.json", function(result){
+		var postList = [];
+		for (var i = 0; i < result.length; i++) {
+			postList[i] = {};
+			postList[i].label = result[i].title;
+			postList[i].value = result[i].url;
+		}
 
-	search:true,
+		var searchInput = document.getElementById("search");
 
-	list:[
-		{ label: "Merhaba Dünya!", value: "http://beratgumus.github.io/turkish/2017/Merhaba.html" }
-		]
+		var search = new Awesomplete(searchInput,{
+			search: true,
+			list: postList
+		});
+
 	});
 
 

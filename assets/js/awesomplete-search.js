@@ -311,9 +311,10 @@ _.prototype = {
 
 				if (this.search) {
 					this.open();
-					this.ul.innerHTML = '<li class="status">Hiçbir sonuç bulunamadı :(</li>';
+					this.ul.innerHTML = '<li class="status">No matches found :(</li>';
 				} else {
-					this.close({ reason: "nomatches" });
+
+						this.close({reason:"nomatches"});
 				}
 
 			} else {
