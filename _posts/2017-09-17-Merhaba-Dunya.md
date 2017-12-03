@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Merhaba Dünya!"
-date:   2017-09-17 16:00
+date:   2017-11-17 16:00
 category: turkish
 icon: globe
 keywords: merhaba
